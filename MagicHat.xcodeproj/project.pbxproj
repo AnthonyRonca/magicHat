@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD571DA023CE6F6C003C2A25 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD571D9F23CE6F6C003C2A25 /* HomeViewController.swift */; };
+		BD571DE223CE72B2003C2A25 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD571DE123CE72B2003C2A25 /* Storyboard.storyboard */; };
 		BD87F5CF23BDD45C0018F3C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD87F5CE23BDD45C0018F3C2 /* AppDelegate.swift */; };
 		BD87F5D123BDD45C0018F3C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD87F5D023BDD45C0018F3C2 /* SceneDelegate.swift */; };
 		BD87F5D323BDD45C0018F3C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD87F5D223BDD45C0018F3C2 /* ContentView.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD571D9F23CE6F6C003C2A25 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BD571DE123CE72B2003C2A25 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		BD87F5CB23BDD45C0018F3C2 /* MagicHat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicHat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD87F5CE23BDD45C0018F3C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD87F5D023BDD45C0018F3C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,8 +108,10 @@
 				BD87F5D223BDD45C0018F3C2 /* ContentView.swift */,
 				BD87F5D423BDD45E0018F3C2 /* Assets.xcassets */,
 				BD87F5D923BDD45E0018F3C2 /* LaunchScreen.storyboard */,
+				BD571DE123CE72B2003C2A25 /* Storyboard.storyboard */,
 				BD87F5DC23BDD45E0018F3C2 /* Info.plist */,
 				BD87F5D623BDD45E0018F3C2 /* Preview Content */,
+				BD571D9F23CE6F6C003C2A25 /* HomeViewController.swift */,
 			);
 			path = MagicHat;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD87F5DB23BDD45E0018F3C2 /* LaunchScreen.storyboard in Resources */,
+				BD571DE223CE72B2003C2A25 /* Storyboard.storyboard in Resources */,
 				BD87F5D823BDD45E0018F3C2 /* Preview Assets.xcassets in Resources */,
 				BD87F5D523BDD45E0018F3C2 /* Assets.xcassets in Resources */,
 			);
@@ -270,6 +277,7 @@
 				BD87F5CF23BDD45C0018F3C2 /* AppDelegate.swift in Sources */,
 				BD87F5D123BDD45C0018F3C2 /* SceneDelegate.swift in Sources */,
 				BD87F5D323BDD45C0018F3C2 /* ContentView.swift in Sources */,
+				BD571DA023CE6F6C003C2A25 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
